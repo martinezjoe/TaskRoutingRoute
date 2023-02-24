@@ -1,0 +1,20 @@
+.task-container {
+  min-width: 500px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.task-action {
+  cursor: pointer;
+}
+
+.task-completed {
+  color: rgb(39, 125, 125);
+  text-decoration: line-through;
+}
+
+.task-pending {
+  font-weight: bold;
+  color: hotpink;
+}
